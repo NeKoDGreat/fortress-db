@@ -1,0 +1,17 @@
+# Fortress DB — Medical Records Management System
+# Python 3.10+ required
+
+# Web framework
+Flask>=3.0.0
+
+# Cryptography: AES-256 Fernet encryption for data-at-rest
+cryptography>=42.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Production PostgreSQL driver (install separately if using PostgreSQL)
+# psycopg2-binary>=2.9.0
+
+# Testing
+pytest>=8.0.0

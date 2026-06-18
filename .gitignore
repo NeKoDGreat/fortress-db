@@ -1,0 +1,52 @@
+# ── Environment & Secrets ───────────────────────────────────
+.env
+*.env
+secrets/
+
+# ── Database files (contain real data — never commit) ───────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── SSL/TLS Certificates (private keys) ─────────────────────
+certs/*.key
+certs/*.pem
+certs/server.crt
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+pip-log.txt
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ── IDE ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ── Testing / Coverage ───────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+logs/
