@@ -341,7 +341,7 @@ class TestDataInProcess(unittest.TestCase):
         """
         import re
         db_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "app", "database.py")
-        with open(db_file) as f:
+        with open(db_file, encoding="utf-8") as f:
             source = f.read()
 
         # Check for dangerous patterns: f-strings or % formatting INSIDE the SQL string itself
